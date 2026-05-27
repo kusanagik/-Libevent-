@@ -1,0 +1,47 @@
+# ==================== Qt 项目忽略 ====================
+*.pro.user
+*.pro.user.*
+*.stash
+build*/
+build-*
+Makefile*
+*.o
+*.obj
+*.exe
+*.dll
+*.a
+*.lib
+ui_*.h
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+*.qrc
+debug/
+release/
+
+# ==================== Windows 特定文件 ====================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.tmp
+*.log
+
+# ==================== IDE 和编辑器 ====================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-*
+
+# ==================== ROS 2（如果你以后会放） ====================
+build/
+install/
+log/
+__pycache__/
+*.pyc
+
+# ==================== 其他临时文件 ====================
+*.bak
+*.~*
+*.orig
